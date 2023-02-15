@@ -10,6 +10,7 @@ import { CheckoutComponentComponent } from './appcomponents/checkout-component/c
 import { HomepageComponentComponent } from './appcomponents/homepage-component/homepage-component.component';
 import { ProductsComponentComponent } from './appcomponents/products-component/products-component.component';
 import { CartComponentComponent } from './appcomponents/cart-component/cart-component.component';
+import { ProfileComponentComponent } from './appcomponents/profile-component/profile-component.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CartComponentComponent } from './appcomponents/cart-component/cart-comp
     CheckoutComponentComponent,
     HomepageComponentComponent,
     ProductsComponentComponent,
-    CartComponentComponent
+    CartComponentComponent,
+    ProfileComponentComponent
   ],
   imports: [
     BrowserModule,
