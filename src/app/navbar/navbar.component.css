@@ -1,0 +1,17 @@
+nav{
+    background-color: rgb(12, 155, 212) !important;
+    padding-right: 20px !important;
+    align-items: center;
+    align-content: center;
+}
+input{
+    width: 550px;
+}
+ .container-fluid{
+    width: max-content;
+    align-content: space-around!important;
+ }
+
+ .contact{
+    color: rgb(9, 60, 60);
+ }

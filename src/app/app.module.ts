@@ -10,6 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { CartComponent } from './cart/cart.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { HomepageComponent } from './homepage/homepage.component';
     LoginComponent,
     CartComponent,
     CheckoutComponent,
-    HomepageComponent
+    HomepageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
