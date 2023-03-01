@@ -1,0 +1,43 @@
+*{
+    padding-top:5px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 155, 212) !important;
+    align-items: center;
+    align-content: space-between;
+    padding-bottom: 0;
+    padding-right: 50px;
+}
+
+img{
+    padding: 10px;
+}
+input{
+    width: 400px;
+}
+ .container-fluid{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    align-content: space-around!important;
+ }
+
+ ul{
+    text-align: center;
+    
+ }
+ li.drop{
+    background-color: inherit;
+    
+ }
+
+ a.dropdown-item:hover {
+    background-color: rgb(12, 155, 212);
+  }
+
+ a.dropdown-item{
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+ }
