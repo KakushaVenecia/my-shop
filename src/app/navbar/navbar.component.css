@@ -12,6 +12,6 @@ input{
     align-content: space-around!important;
  }
 
- .contact{
+ li.contact{
     color: rgb(9, 60, 60);
  }
