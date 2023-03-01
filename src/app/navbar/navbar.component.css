@@ -1,8 +1,15 @@
+*{
+    padding-top:5px;
+}
 nav{
     background-color: rgb(12, 155, 212) !important;
-    padding-right: 20px !important;
     align-items: center;
     align-content: center;
+    padding-bottom: 0;
+}
+
+img{
+    padding: 0;
 }
 input{
     width: 550px;
@@ -12,6 +19,20 @@ input{
     align-content: space-around!important;
  }
 
- li.contact{
-    color: rgb(9, 60, 60);
+ ul{
+    text-align: center;
+    
+ }
+ li.drop{
+    background-color: inherit;
+    
+ }
+
+ a.dropdown-item:hover {
+    background-color: rgb(12, 155, 212);
+  }
+
+ a.dropdown-item{
+    color: rgb(3, 3, 3);
+    font-weight: bold;
  }
