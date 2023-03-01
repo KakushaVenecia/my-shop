@@ -4,15 +4,16 @@
 nav{
     background-color: rgb(12, 155, 212) !important;
     align-items: center;
-    align-content: center;
+    align-content: space-between;
     padding-bottom: 0;
+    padding-right: 50px;
 }
 
 img{
-    padding: 0;
+    padding: 10px;
 }
 input{
-    width: 550px;
+    width: 400px;
 }
  .container-fluid{
     width: max-content;
