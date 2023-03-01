@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,4 +9,5 @@ import { RouterModule } from '@angular/router';
 })
 export class AppComponent {
   title ='The Body Spa';
+
 }
