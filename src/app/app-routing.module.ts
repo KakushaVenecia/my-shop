@@ -5,9 +5,9 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
-    { path: '/', component: HomepageComponent },
-    {path: '/account', component: ProfileComponent},
-    {path: '/cart', component: CartComponent},
+    {path: '', component: HomepageComponent },
+    {path: 'account', component: ProfileComponent},
+    {path: 'cart', component: CartComponent},
    
 ];
 
