@@ -27,11 +27,13 @@ import { ContactComponent } from './contact/contact.component';
     HomepageComponent,
     NavbarComponent,
     ContactComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
+
   ],
   providers: [
   ],

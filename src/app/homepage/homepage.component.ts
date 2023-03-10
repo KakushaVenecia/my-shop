@@ -7,9 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.css']  
 })
-
-
-
 export class HomepageComponent {
   // faCoffee = faCoffee;
 }
