@@ -12,6 +12,7 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -24,12 +25,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CartComponent,
     CheckoutComponent,
     HomepageComponent,
-    NavbarComponent
+    NavbarComponent,
+    ContactComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+
   ],
   providers: [
   ],

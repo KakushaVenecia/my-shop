@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AppRoutingModule } from '../app-routing.module';
+
 
 @Component({
   selector: 'app-navbar',
@@ -6,7 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 
-
 export class NavbarComponent {
-
+  
 }
+
+
